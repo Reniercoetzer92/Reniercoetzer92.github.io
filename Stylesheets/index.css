@@ -61,7 +61,7 @@ body.dark .carousel-inner {
 .hero-h1 {
   font-size: 50px;
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.511); 
-  background: url('/images/Back.jpg');
+  background: url('/Images/Back.jpg');
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -106,7 +106,7 @@ nav {
   width: 10%;
   font-size: 20px;
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0); 
-  background: url('/images/Back.jpg');
+  background: url('/Images/Back.jpg');
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -194,7 +194,7 @@ ul {
   margin-top: -50px;
   padding: 3px 3px;
   border-radius: 100%;
-  background: url('/images/Back.jpg');
+  background: url('/Images/Back.jpg');
   -webkit-background-clip: border-box;
   background-clip: border-box;
   animation: back 100s linear infinite;
@@ -232,7 +232,7 @@ a.btn.contact-details {
   width: 10%;
   font-size: 20px;
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0); 
-  background: url('/images/Back.jpg');
+  background: url('/Images/Back.jpg');
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
