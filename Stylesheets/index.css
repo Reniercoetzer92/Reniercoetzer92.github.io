@@ -16,6 +16,11 @@ body h5 {
   line-height: 40px;
 }
 
+body :any-link {
+  background: transparent;
+  text-decoration: none;
+}
+
 body h6 {
   align-items: last baseline;
   line-height: 30px;
@@ -204,6 +209,10 @@ ul {
   100%{
         background-position: 2000px 0;
   }
+}
+
+.cv-support {
+  margin-top: 20px;
 }
 
 .contact-links {
