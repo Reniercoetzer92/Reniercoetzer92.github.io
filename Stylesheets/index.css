@@ -10,24 +10,24 @@
   
 }
 
-.skills-html {width: 90%; background: url('/Images/Back.jpg');
+.skills-html {font-size: x-large; background: url('/Images/Back.jpg');
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   animation: back 100s linear infinite;
   width:max-content;} /* Green */
-.skills-css {width: 80%; background: url('/Images/Back.jpg');
+.skills-css {font-size: x-large; background: url('/Images/Back.jpg');
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   animation: back 100s linear infinite;
   width:max-content;} /* Blue */
-.skills-js {width: 65%; background: url('/Images/Back.jpg');
+.skills-js {font-size: x-large; background: url('/Images/Back.jpg');
   -webkit-background-clip: text;
   color: transparent;
   animation: back 100s linear infinite;
   width:max-content;} /* Red */
-.skills-php {width: 60%; background: url('/Images/Back.jpg');
+.skills-php {font-size: x-large; background: url('/Images/Back.jpg');
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
