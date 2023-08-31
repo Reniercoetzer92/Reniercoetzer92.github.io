@@ -1,13 +1,11 @@
 * {
   font-family: "Montserrat", sans-serif; 
-  box-sizing:border-box; 
+  box-sizing: border-box; 
 }
 
 .skills {
-  display:inline-flexbox;
   padding-top: 10px; /* Add top padding */
   padding-bottom: 10px; /* Add bottom padding */
-  
 }
 
 .skills-html {font-size: x-large; background: url('/Images/Back.jpg');
@@ -15,24 +13,24 @@
   background-clip: text;
   color: transparent;
   animation: back 100s linear infinite;
-  width:max-content;} /* Green */
+  width:max-content;}
 .skills-css {font-size: x-large; background: url('/Images/Back.jpg');
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   animation: back 100s linear infinite;
-  width:max-content;} /* Blue */
+  width:max-content;}
 .skills-js {font-size: x-large; background: url('/Images/Back.jpg');
   -webkit-background-clip: text;
   color: transparent;
   animation: back 100s linear infinite;
-  width:max-content;} /* Red */
-.skills-php {font-size: x-large; background: url('/Images/Back.jpg');
+  width:max-content;}
+.skills-react {font-size: x-large; background: url('/Images/Back.jpg');
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   animation: back 100s linear infinite;
-  width:max-content;} /* Dark Grey */
+  width:max-content;}
 
 body {
   height: 100vh;
