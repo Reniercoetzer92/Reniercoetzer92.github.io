@@ -1,6 +1,38 @@
 * {
-  font-family: "Montserrat", sans-serif;  
+  font-family: "Montserrat", sans-serif; 
+  box-sizing:border-box; 
 }
+
+.skills {
+  display:inline-flexbox;
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  
+}
+
+.skills-html {width: 90%; background: url('/Images/Back.jpg');
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: back 100s linear infinite;
+  width:max-content;} /* Green */
+.skills-css {width: 80%; background: url('/Images/Back.jpg');
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: back 100s linear infinite;
+  width:max-content;} /* Blue */
+.skills-js {width: 65%; background: url('/Images/Back.jpg');
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: back 100s linear infinite;
+  width:max-content;} /* Red */
+.skills-php {width: 60%; background: url('/Images/Back.jpg');
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: back 100s linear infinite;
+  width:max-content;} /* Dark Grey */
 
 body {
   height: 100vh;
