@@ -87,3 +87,8 @@ body.dark .carousel-inner {
         background-position: 2000px 0;
   }
 }
+
+.form-button {
+  background: transparent;
+  border-radius: 20%;
+}
