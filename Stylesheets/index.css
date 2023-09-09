@@ -278,3 +278,18 @@ a.btn.contact-details {
   animation: back 100s linear infinite;
   width:max-content;
 }
+
+.end {
+  text-align: center;
+  color: rgb(255, 116, 118);
+}
+
+.talk-to-me {
+  margin-top: -50px;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0); 
+  background: url('/Images/Back.jpg');
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: back 100s linear infinite;
+}

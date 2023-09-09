@@ -1,0 +1,89 @@
+body {
+  margin-top: 10vh;
+  text-align: center;
+  height: 10vh;
+  background-image: url("/Images/background1.jpg");
+}
+
+body h2 {
+  line-height: 60px;
+}
+
+body h5 {
+  align-items: last baseline;
+  line-height: 40px;
+}
+
+body :any-link {
+  background: transparent;
+  text-decoration: none;
+}
+
+body h6 {
+  align-items: last baseline;
+  line-height: 30px;
+}
+
+body.dark {
+  background: var(--dark-2);
+  color: white;
+}
+
+body.dark a{
+  background: var(--dark-2);
+  color: white;
+}
+
+body .carousel-inner {
+  background-color: transparent;
+}
+
+body.dark .carousel-inner {
+  background-color: transparent;
+}
+
+#form h1 {
+  text-align: center;
+  font-size: 50px;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.511); 
+  background: url('/Images/Back.jpg');
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: back 100s linear infinite;
+}
+
+.flex-container {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(255, 255, 255, 0),transparent),url(/Images/ExperienceBack.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.flex-container h2 {
+  font-size: 30px;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.507); 
+  background: url('/Images/Back.jpg');
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: back 100s linear infinite;
+}
+
+.flex-container h3 {
+  font-size: 30px;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.322); 
+  background: url('/Images/Back.jpg');
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: back 100s linear infinite;
+}
+
+@keyframes back {
+  100%{
+        background-position: 2000px 0;
+  }
+}
