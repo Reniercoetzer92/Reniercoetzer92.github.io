@@ -9,23 +9,27 @@
 }
 
 .skills-html {font-size: x-large; background: url('/Images/Back.jpg');
+  background-clip: border-box;
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   animation: back 100s linear infinite;
   width:max-content;}
 .skills-css {font-size: x-large; background: url('/Images/Back.jpg');
+  background-clip: border-box;
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   animation: back 100s linear infinite;
   width:max-content;}
 .skills-js {font-size: x-large; background: url('/Images/Back.jpg');
+  background-clip: border-box;
   -webkit-background-clip: text;
   color: transparent;
   animation: back 100s linear infinite;
   width:max-content;}
 .skills-react {font-size: x-large; background: url('/Images/Back.jpg');
+  background-clip: border-box;
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
